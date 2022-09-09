@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/act_settings"
+        android:title="@string/title_activity_settings"
+        />
+    <item android:id="@+id/act_fill1"
+        android:title="@string/act_fill1"
+        />
+    <item android:id="@+id/act_fill2"
+        android:title="@string/act_fill2"
+        />
+</menu>

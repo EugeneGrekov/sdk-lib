@@ -1,0 +1,3 @@
+rootProject.name = "Managed Notifications"
+include ':app'
+include ':sdk-lib'

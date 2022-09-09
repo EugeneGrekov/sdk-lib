@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ניהול התראות</string>
+    <string name="act_main">לנהל את ההתראות שלך</string>
+    <string name="act_show">לפני הרצה צריך לתת גישה להתראות</string>
+    <string name="act_show_heading">שלב %1$d</string>
+    <string name="act_show_btn">לראות עוד</string>
+    <string name="act_show_btn_end">לתת גישה להתראות</string>
+
+    <string name="act_fill1">Fill Initial Survey</string>
+    <string name="act_fill2">Fill Experience Survey</string>
+    <string name="title_activity_settings">הגדרות</string>
+
+    <string name="by_dnd">לפי נא לא להפריע</string>
+
+    <string name="mode_transparent">מציג כל ההתראות</string>
+    <string name="mode_quiet">חוסם התראות לא דחופות</string>
+    <string name="switch_transparent">לעבור להצגה של כל ההתראות</string>
+    <string name="switch_quiet">לחסום התראות לא דחופות</string>
+
+
+</resources>

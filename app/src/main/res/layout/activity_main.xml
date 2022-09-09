@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:menu="@menu/main_menu"
+    android:background="@color/show_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textViewTransparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_transparent"
+            android:textColor="@color/color_transparent"
+            android:textAlignment="center"
+            android:textSize="33dp"
+            tools:ignore="MissingConstraints"
+            />
+        <TextView
+            android:id="@+id/textViewQuiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_quiet"
+            android:textColor="@color/color_quiet"
+            android:textAlignment="center"
+            android:textSize="33dp"
+            tools:ignore="MissingConstraints"
+            />
+        <TextView
+            android:id="@+id/textViewCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@color/color_quiet"
+            android:textAlignment="center"
+            android:textSize="33dp"
+            tools:ignore="MissingConstraints"
+            />
+
+        <Button
+            android:id="@+id/buttonQuiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:text="@string/switch_quiet"
+            />
+        <Button
+            android:id="@+id/buttonTranspanent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:text="@string/switch_transparent"
+            />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
