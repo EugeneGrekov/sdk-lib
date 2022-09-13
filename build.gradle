@@ -22,7 +22,7 @@ allprojects {
             url = uri("https://maven.pkg.github.com/EugeneGrekov/sdk-lib")
             credentials {
                 username = "EugeneGrekov"
-                password = "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"
+                password = "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"
             }
         }
     }
