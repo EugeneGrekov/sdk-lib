@@ -4,7 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 
-import guru.msgs.sdk_lib.SaveStatistics;
+import guru.msgs.sdk_lib_w.SaveStatistics;
+
 
 public class OpenSurvay
 {

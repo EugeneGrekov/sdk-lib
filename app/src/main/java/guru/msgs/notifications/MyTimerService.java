@@ -1,6 +1,5 @@
 package guru.msgs.notifications;
 
-import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -22,7 +21,7 @@ import androidx.core.app.NotificationCompat;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import guru.msgs.sdk_lib.ToExport;
+import guru.msgs.sdk_lib_w.ToExport;
 
 
 public class MyTimerService extends NotificationListenerService
@@ -115,13 +114,13 @@ public class MyTimerService extends NotificationListenerService
             builder.setColor(Color.RED);
             builder.setContentTitle(getString(R.string.mode_quiet));
             builder.setContentText(getString(R.string.switch_transparent));
-            builder.setSmallIcon(com.guru.managed.notifications.R.drawable.ic_24r);
+            builder.setSmallIcon(R.drawable.ic_24r);
             builder.setSilent(true);
 
         } else {
             intent.putExtra(ActivityServicePayload.ASK_MODE, ActivityServicePayload.QUIET);
             builder.setColor(Color.GREEN);
-            String tmpTitle = getString(com.guru.managed.notifications.R.string.mode_transparent);
+            String tmpTitle = getString(R.string.mode_transparent);
 /*
             if (mCollectData.runMinutes>0)
                 tmpTitle += getString(R.string.add_saved_minutes, (int)mCollectData.runMinutes);
@@ -129,7 +128,7 @@ public class MyTimerService extends NotificationListenerService
             builder.setContentTitle(tmpTitle);
 
             builder.setContentText(getString(R.string.switch_quiet));
-            builder.setSmallIcon(com.guru.managed.notifications.R.drawable.ic_24g);
+            builder.setSmallIcon(R.drawable.ic_24g);
 
 /*
             //check is need restore sound

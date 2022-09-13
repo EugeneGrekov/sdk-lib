@@ -18,11 +18,11 @@
 
         <activity
             android:label="@string/app_name"
-            android:name="guru.msgs.sdk_lib.ContactPickerSampleActivity">
+            android:name="guru.msgs.sdk_lib_w.ContactPickerSampleActivity">
         </activity>
 
         <activity
-            android:name="guru.msgs.sdk_lib.SettingsActivity"
+            android:name="guru.msgs.sdk_lib_w.SettingsActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity"
             android:label="@string/title_activity_settings" />
@@ -48,7 +48,7 @@
         </service>
 
         <service
-            android:name="guru.msgs.sdk_lib.NotificationManagmentService"
+            android:name="guru.msgs.sdk_lib_w.NotificationManagmentService"
             android:exported="true"
             android:label="@string/notification_service_name"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
