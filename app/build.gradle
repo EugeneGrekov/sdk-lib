@@ -39,4 +39,5 @@ dependencies {
 
     implementation project(":sdk-lib")
 
+//    implementation 'com.github.EugeneGrekov:sdk-lib:1.0.3'
 }

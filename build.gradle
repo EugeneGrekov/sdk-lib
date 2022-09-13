@@ -17,11 +17,12 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
         maven {
             url = uri("https://maven.pkg.github.com/EugeneGrekov/sdk-lib")
             credentials {
                 username = "EugeneGrekov"
-                password = "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"
+                password = "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"
             }
         }
     }
