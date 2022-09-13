@@ -1,3 +1,5 @@
 rootProject.name = "Managed Notifications"
-include ':app'
 include ':sdk-lib'
+if (!System.env.JITPACK)
+    include ':app'
+
