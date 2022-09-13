@@ -20,9 +20,12 @@ allprojects {
         maven { url 'https://jitpack.io' }
         maven {
             url = uri("https://maven.pkg.github.com/EugeneGrekov/sdk-lib")
+            authentication {
+                basic(BasicAuthentication)
+            }
             credentials {
-                username = 'EugeneGrekov'
-                password = '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'
+                username = "EugeneGrekov"
+                password = project.properties['MAPBOX_DOWNLOADS_TOKEN'] ?: ""
             }
         }
     }
