@@ -31,7 +31,7 @@ allprojects {
             url = uri("https://maven.pkg.github.com/EugeneGrekov/sdk-lib")
             credentials {
                 username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
-                password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
+                password = githubProperties['gpr.key2'] + "_" + githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
             }
         }
     }
