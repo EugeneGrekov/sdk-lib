@@ -37,7 +37,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation project(":sdk-lib")
+//    implementation project(":sdk-lib")
 
-//    implementation 'com.github.EugeneGrekov:sdk-lib:1.0.3'
+    implementation 'com.github.EugeneGrekov:sdk-lib:1.0.9003'
 }

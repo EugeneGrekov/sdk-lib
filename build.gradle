@@ -5,13 +5,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://maven.pkg.github.com/EugeneGrekov/sdk-lib")
-            credentials {
-                username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
-                password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
-            }
-        }
+
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.4"
@@ -27,6 +21,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
         maven {
             url = uri("https://maven.pkg.github.com/EugeneGrekov/sdk-lib")
             credentials {
